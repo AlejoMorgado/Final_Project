@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+  background-color: #E9FCFF;
+ margin: 0 0 50px 0;
+}
+h1,h2{
+  font-family: 'Yeseva One', cursive;
+
+}
+p{
+  font-family: "Monserat", sans-serif;
+  text-align: left;
+}
+ul.myUl{
+  text-align: left;
+  display: inline-block;
+  font-family: "Monserat", sans-serif;
+}
+.navLi{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+a:hover{
+  color: #8fd890;
+}
+#section1{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  color:rgb(12, 1, 21);
+  padding: 50px;
+  height: 100%;
+}
+#section1A,#section2, #section3, #section4, #section5{
+  padding: 25px 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}

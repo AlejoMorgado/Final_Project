@@ -1,0 +1,45 @@
+body{
+  text-align: center;
+  background-color: #E9FCFF;
+ margin: 0 0 50px 0;
+}
+label, p{
+  font-family: 'Yeseva One', cursive;
+  display: block;
+  float:center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input{
+width: 400px;
+margin-top: 5px;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+a:hover{
+  color: #8fd890;
+}
+.send{
+  width: 100px;
+}
+.navLi{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#form{
+  padding: 50px;
+  margin: 25px 250 auto 250;
+}
+
+
+

@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  background-color: #e3d198;
+ margin: 0 0 50px 0;
+}
+h1,h2{
+  font-family: 'Yeseva One', cursive;
+
+}
+p{
+  font-family: "Monserat", sans-serif;
+  text-align: left;
+}
+.navLi{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+a:hover{
+  color: #8fd890;
+}
+#section1,#section2, #section3{
+  padding: 25px 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#section1{
+  margin-top: 25px; ;
+  padding: 50px 100px 0px 100px;
+}
