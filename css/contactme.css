@@ -1,45 +1,103 @@
-body{
-  text-align: center;
-  background-color: #E9FCFF;
- margin: 0 0 50px 0;
+body {
+  background-image: url(../images/contactmeB.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-label, p{
-  font-family: 'Yeseva One', cursive;
+label, p {
+  font-family: 'Roboto', sans-serif;
+}
+label{
   display: block;
-  float:center;
-  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-input{
-width: 400px;
-margin-top: 5px;
+input {
+  width: 50%;
+  margin-top: 5px;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: white;
 }
-li a{
+textarea{
+  color: white;
+  background-color: rgb(200, 200, 200, 0.3);
+}
+input::placeholder {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+input[type=checkbox]{
+  width: 3%;
+  
+}
+
+li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  float: left;
+  float: right;
 }
-a:hover{
-  color: #8fd890;
+.align-left{
+  text-align: left;
+  margin-left: 180px;
 }
-.send{
-  width: 100px;
+.labelLeft{
+  text-align: left;
+  width: 40%;
 }
-.navLi{
+.input{
+  height: 50px;
+  padding: 6px 20px 6px 40px;
+  background: transparent;
+}
+.bt-send{
+  width: 50px;
+}
+.navLi {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
-#form{
-  padding: 50px;
-  margin: 25px 250 auto 250;
+.checkDiv{
+  text-align: center;
+}
+#contact div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;       
 }
 
-
-
+a:hover {
+  color: #8fd890;
+}
+#textarea label{
+  font-size: 2rem;
+}
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+#content-wrap{
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: aliceblue;
+  padding: 40px;
+  width: 60%;
+  margin-top: 50px;
+}
+#pContact{
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}

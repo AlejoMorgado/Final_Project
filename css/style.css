@@ -1,8 +1,12 @@
 body{
   text-align: center;
-  background-color: #E9FCFF;
+  background-image: linear-gradient(to bottom, #f9e0cc, #d9dbb9, #aad7bb, #7dcfd1, #73bfe7);
  margin: 0 0 50px 0;
 }
+body :not(navMenu) {
+  /* styles for all elements except for #exclude-me */
+}
+
 h1,h2{
   font-family: 'Yeseva One', cursive;
 
@@ -10,7 +14,7 @@ h1,h2{
 p{
   font-family: "Monserat", sans-serif;
   text-align: left;
-}
+} 
 ul.myUl{
   text-align: left;
   display: inline-block;
@@ -29,7 +33,7 @@ li a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  float: left;
+  float: right;
 }
 a:hover{
   color: #8fd890;
@@ -37,8 +41,7 @@ a:hover{
 #section1{
   background-image: url(../images/background.jpg);
   background-size: cover;
-  color:rgb(12, 1, 21);
-  padding: 50px;
+  padding: 60px;
   height: 100%;
 }
 #section1A,#section2, #section3, #section4, #section5{
