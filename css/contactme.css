@@ -2,17 +2,21 @@ body {
   background-image: url(../images/contactmeB.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 100% 100%;
+  margin: 0;
 }
+
 label,
 p {
   font-family: "Roboto", sans-serif;
 }
+
 label {
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 input {
   width: 50%;
   margin-top: 5px;
@@ -20,14 +24,18 @@ input {
   border-style: solid;
   border-color: white;
 }
+
 textarea {
   color: white;
   background-color: rgb(200, 200, 200, 0.3);
 }
+
 input::placeholder {
   font-weight: bold;
   font-family: sans-serif;
+  color: white;
 }
+
 input[type="checkbox"] {
   width: 3%;
 }
@@ -40,22 +48,27 @@ li a {
   text-decoration: none;
   float: right;
 }
+
 .align-left {
   text-align: left;
   margin-left: 180px;
 }
+
 .labelLeft {
   text-align: left;
   width: 40%;
 }
+
 .input {
   height: 50px;
   padding: 6px 20px 6px 40px;
   background: transparent;
 }
+
 .bt-send {
   width: 50px;
 }
+
 .navLi {
   display: flex;
   flex-direction: row;
@@ -66,9 +79,11 @@ li a {
   overflow: hidden;
   background-color: #333;
 }
+
 .checkDiv {
   text-align: center;
 }
+
 #contact div {
   display: flex;
   flex-direction: row;
@@ -79,15 +94,18 @@ li a {
 a:hover {
   color: #8fd890;
 }
+
 #textarea label {
   font-size: 2rem;
 }
+
 #form {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
 #content-wrap {
   box-sizing: border-box;
   border-radius: 10px;
@@ -98,6 +116,7 @@ a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 #pContact {
   margin-top: 30px;
   margin-bottom: 25px;
