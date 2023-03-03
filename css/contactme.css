@@ -1,13 +1,14 @@
 body {
   background-image: url(../images/contactmeB.jpg);
   background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-label, p {
-  font-family: 'Roboto', sans-serif;
+label,
+p {
+  font-family: "Roboto", sans-serif;
 }
-label{
+label {
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -19,7 +20,7 @@ input {
   border-style: solid;
   border-color: white;
 }
-textarea{
+textarea {
   color: white;
   background-color: rgb(200, 200, 200, 0.3);
 }
@@ -27,9 +28,8 @@ input::placeholder {
   font-weight: bold;
   font-family: sans-serif;
 }
-input[type=checkbox]{
+input[type="checkbox"] {
   width: 3%;
-  
 }
 
 li a {
@@ -40,43 +40,46 @@ li a {
   text-decoration: none;
   float: right;
 }
-.align-left{
+.align-left {
   text-align: left;
   margin-left: 180px;
 }
-.labelLeft{
+.labelLeft {
   text-align: left;
   width: 40%;
 }
-.input{
+.input {
   height: 50px;
   padding: 6px 20px 6px 40px;
   background: transparent;
 }
-.bt-send{
+.bt-send {
   width: 50px;
 }
 .navLi {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
-.checkDiv{
+.checkDiv {
   text-align: center;
 }
-#contact div{
+#contact div {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-evenly;       
+  justify-content: space-evenly;
 }
 
 a:hover {
   color: #8fd890;
 }
-#textarea label{
+#textarea label {
   font-size: 2rem;
 }
 #form {
@@ -84,10 +87,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0 0 50px 0;
 }
-#content-wrap{
-  position: relative;
+#content-wrap {
   box-sizing: border-box;
   border-radius: 10px;
   border: 1px solid;
@@ -95,8 +96,9 @@ a:hover {
   padding: 40px;
   width: 60%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
-#pContact{
+#pContact {
   margin-top: 30px;
   margin-bottom: 25px;
   font-weight: bold;

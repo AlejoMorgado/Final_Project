@@ -1,24 +1,15 @@
 body{
-  text-align: center;
-  background-color: #E9FCFF;
  margin: 0 0 50px 0;
+ background-color: #BFC3A8;
 }
 h1,h2{
-  font-family: 'Yeseva One', cursive;
-
+  font-family: 'Prata', serif;
 }
 p{
-  font-family: "Monserat", sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
   text-align: left;
-}
-ul #gmail{
-  list-style-image: url(../images/gmail\ \(1\).png);
-}
-ul #github{
-  list-style-image: url(../images/github.png);
-}
-ul #linkedin{
-  list-style-image: url(../images/linkedin\ \(1\).png);
+  letter-spacing: 1px;
 }
 li .basket,.contact,.home{
   display: block;
@@ -28,27 +19,59 @@ li .basket,.contact,.home{
   text-decoration: none;
   float: left;
 }
+img{
+  height: 50%;
+  width: 50%;
+}
 a:hover{
   color: #8fd890;
 }
-
+.menu a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
 .navLi{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
-#section1,#section2, #section3{
-  padding: 25px 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+#divContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#section1{
-  margin-top: 25px; ;
-  padding: 50px 100px 0px 100px;
+#section1, #section2{
+  padding: 20px;
+  text-align: center;
+}
+#gmail{
+  list-style-image: url(../images/gmail\ \(1\).png);
+}
+#github{
+  list-style-image: url(../images/github.png);
+}
+#linkedin{
+  list-style-image: url(../images/linkedin\ \(1\).png);
 }
 #section2 ul{
 display: inline-block;
 text-align: left;
+}
+#section1{
+  display: flex;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+}
+#divImg, #divP{
+  width: 40%;
 }

@@ -1,51 +1,72 @@
-body{
-  text-align: center;
-  background-image: linear-gradient(to bottom, #f9e0cc, #d9dbb9, #aad7bb, #7dcfd1, #73bfe7);
- margin: 0 0 50px 0;
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    #f9e0cc,
+    #d9dbb9,
+    #aad7bb,
+    #7dcfd1,
+    #73bfe7
+  );
 }
-body :not(navMenu) {
-  /* styles for all elements except for #exclude-me */
+img, video{
+  height: 50%;
+  width: 50%;
 }
-
-h1,h2{
-  font-family: 'Yeseva One', cursive;
-
+h1,
+h2 {
+  font-family: "Yeseva One", cursive;
 }
-p{
+p {
   font-family: "Monserat", sans-serif;
   text-align: left;
-} 
-ul.myUl{
+}
+ul.myUl {
   text-align: left;
   display: inline-block;
   font-family: "Monserat", sans-serif;
 }
-.navLi{
+.navLi {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
-li a{
+li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  float: right;
 }
-a:hover{
+a:hover {
   color: #8fd890;
 }
-#section1{
+#contentContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#section2, #section3, #section4, #section5{
+  width: 70%;
+  text-align: center;
+}
+#section1 {
   background-image: url(../images/background.jpg);
   background-size: cover;
-  padding: 60px;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 45em;
+  margin-bottom: 0;
 }
-#section1A,#section2, #section3, #section4, #section5{
-  padding: 25px 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+#section1A{
+  padding: 15px;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
 }

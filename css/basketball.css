@@ -1,17 +1,21 @@
 body{
-  text-align: center;
-  background-color: #e3d198;
- margin: 0 0 50px 0;
+  background-image: url(../images/basket2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  margin: 0;
 }
 h1,h2{
   font-family: 'Yeseva One', cursive;
-
 }
 p{
   font-family: "Monserat", sans-serif;
   text-align: left;
 }
 .navLi{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -30,11 +34,11 @@ a:hover{
   color: #8fd890;
 }
 #section1,#section2, #section3{
-  padding: 25px 50px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-#section1{
-  margin-top: 25px; ;
-  padding: 50px 100px 0px 100px;
-}
+  text-align: center;
+  width: 50%;
+  }
+  #content-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
